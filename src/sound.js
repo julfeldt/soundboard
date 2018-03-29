@@ -91,8 +91,6 @@ Object.keys(words).forEach((idx) => {
 
 export const play = (word, onEnd) => {
     try {
-        console.log("Play ", word.word);
-        //stopSound();
         mySource = myAudioContext.createBufferSource();
         mySource.buffer = word.audio;
         mySource.connect(myAudioContext.destination);
