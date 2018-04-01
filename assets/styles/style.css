@@ -31,7 +31,7 @@ html {
 }
 
 body {
-    margin: 50px;
+    margin: 10px;
     background: var(--blue);
     letter-spacing: -1px;
 }
